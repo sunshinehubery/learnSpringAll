@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "sunshine.blog",
+      "type": "com.example.demo.domain.ConfigBean",
+      "sourceType": "com.example.demo.domain.ConfigBean"
+    },
+    {
+      "name": "test",
+      "type": "com.example.demo.domain.TestConfigBean",
+      "sourceType": "com.example.demo.domain.TestConfigBean"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sunshine.blog.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.domain.ConfigBean"
+    },
+    {
+      "name": "sunshine.blog.title",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.domain.ConfigBean"
+    },
+    {
+      "name": "sunshine.blog.whole-title",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.domain.ConfigBean"
+    },
+    {
+      "name": "test.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.demo.domain.TestConfigBean",
+      "defaultValue": 0
+    },
+    {
+      "name": "test.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.domain.TestConfigBean"
+    }
+  ],
+  "hints": []
+}
