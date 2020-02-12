@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      username: mongofu
+      password: 123456
+      uri: mongodb://139.129.119.108:27017/mongofu
